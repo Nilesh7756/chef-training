@@ -35,13 +35,13 @@ knife cookbook upload <cookbook_name>
 
 **To add recipe to run_list**
 ```
-knife node run_list add ubuntu_node "recipe[httpd::default]"
+knife node run_list add <node_name> "recipe[httpd::default]"
 ```
 
 **To run chef-client using ssh on linux node**
 
 ```
-knife ssh -x ubuntu "name:<ubuntu_node_name>" "sudo  chef-client" -i  <path-to-ssh-key>
+knife ssh -x ubuntu "name:<node_name>" "sudo  chef-client" -i  <path-to-ssh-key>
 ```
 
 **To run chef-client using ssh on windows node**
