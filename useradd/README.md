@@ -1,4 +1,5 @@
 # useradd
 
-TODO: Enter the cookbook description here.
+Adds users  from the Databags Admins in Chef server.
+
 
