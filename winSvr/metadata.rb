@@ -6,7 +6,7 @@ description 'Installs/Configures winSvr'
 long_description 'Installs/Configures winSvr'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
-depends 'windows_feature', '~> 1.0.23'
+depends 'windows', '~> 3.1.1'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbooks page when
