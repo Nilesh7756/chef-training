@@ -1,4 +1,4 @@
 # httpd
 
-#### Install Httpd service.
+#### Installs and Starts Httpd service.
 
