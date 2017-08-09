@@ -15,7 +15,7 @@ knife cookbook upload ohai
 knife cookbook upload windows
 ```
 
-** You need to mention dependency Windows cookbook in your cookbook metadata.rb(metadata.rb) file**
+**You need to mention dependency Windows cookbook in your cookbook [metadata.rb](metadata.rb) file**
 ```
 depends 'windows', '~> 3.1.1'
 ```
