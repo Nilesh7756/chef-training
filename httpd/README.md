@@ -2,7 +2,7 @@
 
 #### Installs and Starts Httpd service.
 
-Upload cookbook httpd as follow
+Upload cookbook httpd as follows
 
 ```
   knife cookbook upload httpd
